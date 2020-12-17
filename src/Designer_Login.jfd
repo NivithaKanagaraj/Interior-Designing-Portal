@@ -1,0 +1,53 @@
+JFDML JFormDesigner: "7.0.1.0.272" Java: "11.0.6" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {par l {seq {space :p:46:p, comp panel1:::p::p}, seq l {space :p:146:p, comp button1:::p::p}}, space ::37:x}}"
+			"$verticalGroup": "par l {seq l {space ::59:x, comp panel1:::p:147:p, space u:::p, comp button1:::p::p, space :p:35:p}}"
+		} ) {
+			name: "this"
+			"title": "Admin Login"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq l {space :p:38:p, par l {comp label1:::p::p, comp label2:::p::p}, space ::30:x, par l:::p {comp textField1::::126:x, comp passwordField1::::126:x}, space :p:23:p}, seq l {space :p:103:p, comp button2:::p::p, space ::119:x}}"
+				"$verticalGroup": "par l {seq l {space :p:19:p, par b {comp textField1::b:p::p, comp label1::b:p::p}, par l {seq l {space :p:39:p, comp label2:::p::p}, seq {space :::x, comp passwordField1:::p::p}}, space u:::p, comp button2:::p::p, space :::p}}"
+			} ) {
+				name: "panel1"
+				"background": new java.awt.Color( 204, 255, 204, 255 )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "USER ID:"
+					"font": new java.awt.Font( "Arial", 1, 14 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"text": "PASSWORD:"
+					"font": new java.awt.Font( "Arial", 1, 14 )
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField1"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button2"
+					"text": "Login"
+					"font": new java.awt.Font( "Arial", 1, 14 )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button2MouseClicked", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JPasswordField" ) {
+					name: "passwordField1"
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button1"
+				"text": "Back"
+				"font": new java.awt.Font( "Arial", 1, 14 )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button1MouseClicked", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button1MouseClicked", true ) )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 385, 315 )
+		} )
+	}
+}

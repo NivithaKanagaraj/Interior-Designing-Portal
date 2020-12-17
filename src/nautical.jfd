@@ -1,0 +1,57 @@
+JFDML JFormDesigner: "7.0.1.0.272" Java: "11.0.6" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq l {space :::p, par l {comp label3:::p::p, comp label5::l:p:259:p}, space :::p, par l:::p {comp label4:::p:263:p, comp label1::::0:x}, space :::x, par l {comp label6:::p:248:p, comp label2:::p:213:p}, space :::x}, seq {par l {seq {space :p:353:p, comp button1:::p::p}, seq l {space :p:315:p, comp label7:::p:119:p}}, space ::324:x}}"
+			"$verticalGroup": "par l {seq l {comp label7:::p:32:p, space :p:2:p, par t {comp label3::t:p:180:p, comp label2::t:p:193:p, comp label4::t:p::p}, space :p:6:p, par b {comp label5::b:p::p, comp label6::b:p:206:p, comp label1::b:::x}, space s:::p, comp button1:::p::p, space :p:26:p}}"
+		} ) {
+			name: "this"
+			"title": "Nautical Design"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "text"
+				"icon": new com.jformdesigner.model.SwingIcon( 1, "C:\\Users\\Home\\Desktop\\cat 3\\nau\\download (1).jfif" )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "text"
+				"icon": new com.jformdesigner.model.SwingIcon( 1, "C:\\Users\\Home\\Desktop\\cat 3\\nau\\download (2).jfif" )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"icon": new com.jformdesigner.model.SwingIcon( 1, "C:\\Users\\Home\\Desktop\\cat 3\\nau\\download (4).jfif" )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label5"
+				"text": "text"
+				"icon": new com.jformdesigner.model.SwingIcon( 1, "C:\\Users\\Home\\Desktop\\cat 3\\nau\\images (5).jfif" )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label6"
+				"text": "text"
+				"icon": new com.jformdesigner.model.SwingIcon( 1, "C:\\Users\\Home\\Desktop\\cat 3\\nau\\images.jfif" )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+				"icon": new com.jformdesigner.model.SwingIcon( 1, "C:\\Users\\Home\\Desktop\\cat 3\\nau\\download.jfif" )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button1"
+				"text": "BACK"
+				"font": new java.awt.Font( "Arial", 1, 14 )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button1MouseClicked", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label7"
+				"text": "PORTFOLIO"
+				"font": new java.awt.Font( "Arial", 1, 14 )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 760, 545 )
+		} )
+	}
+}
+

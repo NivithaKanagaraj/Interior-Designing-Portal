@@ -1,0 +1,121 @@
+JFDML JFormDesigner: "7.0.1.0.272" Java: "11.0.6" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq t {space :p:17:p, par l {comp label7::l:::x, seq {par l:::p {comp label1::l::82:x, comp label4:::p:56:p, comp label2::l:p::p, comp label3::l::82:x, comp label6::l::82:x, comp label5::l::82:x}, space :0:0:x}, comp label8::t:::x}, space s:::p, par l {comp label9:::p:208:p, comp textField6::l:p:207:p, seq l {par l {par t:l::p {seq {comp radioButton1:::p:67:p, space :p:26:p, comp radioButton2::::69:x}, comp textField2::l::162:x, comp textField1::l::162:x, comp passwordField1::l::162:x}, comp spinner1::l:p:120:p}, space :p:42:p, par l {comp textPane1:::p::p, comp radioButton3:::p:66:p}}, comp textField8::l:p:163:p, par t:l {seq {comp button1:::p::p, space :p:46:p, comp button2:::p::p}, comp textField7:::p:215:p}}, space :p:15:p}}"
+			"$verticalGroup": "par l {seq l {comp label9:::p:28:p, space :::p, par b {comp label1::b:p:22:p, comp textField1::b:p::p}, space :::p, par l {comp label2:::p::p, comp textField2:::p::p}, space :::p, par l {comp passwordField1:::p::p, comp label3:::p:22:p}, space :::p, par l {seq {par l {comp label4:::p:16:p, comp spinner1:::p::p}, space :::p, par b {comp radioButton1::b:p::p, comp radioButton2::b:p::p, comp radioButton3::b:p::p, comp label5::b:p:16:p}, space s:::p, par b {comp textField6::b:p::p, comp label6::b:p:16:p}, space :::p, par b {comp label7::b:p:28:p, comp textField7::b:p::p}, space :::p, par b {comp textField8::b:p::p, comp label8::b:p::p}, space s:::p, par b {comp button1::b:p::p, comp button2::b:p::p}}, comp textPane1:::p::p}, space ::16:x}}"
+		} ) {
+			name: "this"
+			"background": new java.awt.Color( 153, 153, 153, 255 )
+			"title": "Registeration Form"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "Name:"
+				"font": new java.awt.Font( "Arial", 1, 14 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "User Id:"
+				"font": new java.awt.Font( "Arial", 1, 14 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "Password:"
+				"font": new java.awt.Font( "Arial", 1, 14 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+				"text": "Age:"
+				"font": new java.awt.Font( "Arial", 1, 14 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label5"
+				"text": "Gender:"
+				"font": new java.awt.Font( "Arial", 1, 14 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label6"
+				"text": "Address:"
+				"font": new java.awt.Font( "Arial", 1, 14 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label7"
+				"text": "Email Id:"
+				"font": new java.awt.Font( "Arial", 1, 14 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label8"
+				"text": "Phone Number:"
+				"font": new java.awt.Font( "Arial", 1, 14 )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField1"
+				addEvent( new FormEvent( "java.awt.event.FocusListener", "focusLost", "textField1FocusLost", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField2"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField6"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField7"
+				addEvent( new FormEvent( "java.awt.event.FocusListener", "focusLost", "textField7FocusLost", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField8"
+				addEvent( new FormEvent( "java.awt.event.FocusListener", "focusLost", "textField8FocusLost", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JSpinner" ) {
+				name: "spinner1"
+				"model": new javax.swing.SpinnerNumberModel( 18, 18, 80, 1 )
+			} )
+			add( new FormComponent( "javax.swing.JRadioButton" ) {
+				name: "radioButton1"
+				"text": "Male"
+				"background": new java.awt.Color( 204, 204, 204, 255 )
+				"font": new java.awt.Font( "Arial", 1, 14 )
+			} )
+			add( new FormComponent( "javax.swing.JRadioButton" ) {
+				name: "radioButton2"
+				"text": "Female"
+				"background": new java.awt.Color( 204, 204, 204, 255 )
+				"font": new java.awt.Font( "Arial", 1, 14 )
+			} )
+			add( new FormComponent( "javax.swing.JRadioButton" ) {
+				name: "radioButton3"
+				"text": "Other"
+				"font": new java.awt.Font( "Arial", 1, 14 )
+				"background": new java.awt.Color( 204, 204, 204, 255 )
+			} )
+			add( new FormComponent( "javax.swing.JPasswordField" ) {
+				name: "passwordField1"
+				addEvent( new FormEvent( "java.awt.event.FocusListener", "focusLost", "passwordField1FocusLost", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button1"
+				"text": "Register"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button1MouseClicked", true ) )
+				addEvent( new FormEvent( "java.awt.event.FocusListener", "focusLost", "button1FocusLost", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button2"
+				"text": "Login"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button2MouseClicked", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JTextPane" ) {
+				name: "textPane1"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label9"
+				"text": "REGISTRATION FORM"
+				"font": new java.awt.Font( "Arial", 1, 16 )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 420, 415 )
+		} )
+	}
+}
